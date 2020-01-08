@@ -1,0 +1,74 @@
+{
+  "Linq JS": {
+    "Enabled": true,
+    "LoadFirst": false,
+    "Order": 3,
+    "ModuleType": "require",
+    "FileName": "linq.js",
+    "Description": "Enables querying js objects like linq."
+  },
+  "QueryString ES5": {
+    "Enabled": true,
+    "LoadFirst": false,
+    "Order": 1,
+    "ModuleType": "require",
+    "FileName": "QueryString_es5.js",
+    "Description": "Parses and loads current querystring collection."
+  },
+  "QueryString ES6": {
+    "Enabled": false,
+    "LoadFirst": false,
+    "Order": 1,
+    "ModuleType": "import",
+    "FileName": "QueryString_es6.js",
+    "Description": "Parses and loads current querystring collection."
+  },
+  "Require JS": {
+    "Enabled": true,
+    "LoadFirst": true,
+    "Order": 2,
+    "ModuleType": "script",
+    "FileName": "require.js",
+    "Description": "AMD module loading library."
+  },
+  "JQuery": {
+    "Enabled": true,
+    "LoadFirst": true,
+    "Order": 1,
+    "ModuleType": "script",
+    "FileName": "jquery.js",
+    "Description": "Awesome library."
+  },
+  "Bootstrap4 JS (w/popper)": {
+    "Enabled": true,
+    "LoadFirst": false,
+    "Order": 2,
+    "ModuleType": "require",
+    "FileName": "bootstrap4withpopper.js",
+    "Description": ""
+  },
+  "Bootstrap 4 CSS": {
+    "Enabled": false,
+    "LoadFirst": false,
+    "Order": 1,
+    "ModuleType": "style",
+    "FileName": "bootstrap4.min.css",
+    "Description": "Bootstrap 4 CSS"
+  },
+  "Notify JS": {
+    "Enabled": true,
+    "LoadFirst": false,
+    "Order": 1,
+    "ModuleType": "script",
+    "FileName": "vanilla-notify.js",
+    "Description": "Enabled app to show popup notifications."
+  },
+  "Notify CSS": {
+    "Enabled": true,
+    "LoadFirst": false,
+    "Order": 1,
+    "ModuleType": "style",
+    "FileName": "vanilla-notify.css",
+    "Description": "Enabled app to show popup notifications."
+  }
+}

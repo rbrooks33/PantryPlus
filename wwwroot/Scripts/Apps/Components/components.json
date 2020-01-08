@@ -1,0 +1,37 @@
+{
+  "Components": [
+    {
+      "Name": "Debug",
+      "Description": "AppsJS dev utilities.",
+      "ComponentFolder": "",
+      "TemplateFolder": "",
+      "Load": false,
+      "Initialize": false,
+      "Color": "blue",
+      "ModuleType": "require",
+      "Framework": "default",
+      "Components": []
+    },
+    {
+      "Name": "ReactTest",
+      "ComponentFolder": "C:\\Local\\Work\\Temp\\Angular\\tester\\src\\app\\xyz",
+      "TemplateFolder": "",
+      "Load": false,
+      "Initialize": false,
+      "Color": "blue",
+      "ModuleType": "es6",
+      "Framework": "react",
+      "Components": []
+    },
+    {
+      "Name": "Login",
+      "Description": "Encompasses all UI and logic for authentication and authorization.",
+      "Load": false,
+      "Initialize": true,
+      "Color": "blue",
+      "ModuleType": "require",
+      "Framework": "default",
+      "Components": []
+    }
+  ]
+}

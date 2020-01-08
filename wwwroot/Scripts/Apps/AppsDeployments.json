@@ -1,0 +1,20 @@
+{
+  "Dev": {
+    "Active": true,
+    "Version": "1.0.1",
+    "WebRoot": "https://localhost",
+    "VirtualFolder": "",
+    "Port": "5001",
+    "AppsRoot": "Scripts/Apps",
+    "Debug": false
+  },
+  "Prod": {
+    "Active": false,
+    "Version": "1.0.2",
+    "WebRoot": "https://www.delegateplus.com",
+    "VirtualFolder": "",
+    "Port": "",
+    "AppsRoot": "Scripts/Apps",
+    "Debug": false
+  }
+}
